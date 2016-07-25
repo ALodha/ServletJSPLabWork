@@ -14,7 +14,7 @@
   	<servlet-name>welcome</servlet-name>
   	<display-name>welcome</display-name>
   	<description></description>
-  	<servlet-class>welcome.welcome</servlet-class>
+  	<servlet-class>com.training.welcome</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>validatePassword</servlet-name>
