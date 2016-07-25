@@ -25,7 +25,7 @@ public class validatePassword extends HttpServlet {
 		    	 requestDispatcher.forward(request,response);  
 		    }else{
 		    	out.println("Sorry incorrect values");
-		    	RequestDispatcher requestDispatcher=request.getRequestDispatcher("index.jsp");  
+		    	RequestDispatcher requestDispatcher=request.getRequestDispatcher("WEB-INF/index.jsp");  
 		    	requestDispatcher.forward(request,response);  
 		    }
 	}
